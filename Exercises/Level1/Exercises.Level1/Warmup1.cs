@@ -113,7 +113,7 @@ public class Warmup1
 
     /// <summary>
     /// Given a string, return a new string where "not " has been added to the front. 
-    /// However, if the string already begins with "not", return the string unchanged. Note: use .equals() to compare 2 strings.
+    /// However, if the string already begins with "not", return the string unchanged. Note: use == to compare 2 strings.
     /// 
     /// notString("candy") → "not candy"
     /// notString("x") → "not x"
@@ -126,7 +126,7 @@ public class Warmup1
 
     /// <summary>
     /// Given a non-empty string and an int n, return a new string where the char at index n has been removed. 
-    /// The value of n will be a valid index of a char in the original string (i.e. n will be in the range 0..str.length()-1 inclusive).
+    /// The value of n will be a valid index of a char in the original string (i.e. n will be in the range 0..str.Length - 1 inclusive).
     /// 
     /// missingChar("kitten", 1) → "ktten"
     /// missingChar("kitten", 0) → "itten"
@@ -176,7 +176,7 @@ public class Warmup1
 
     /// <summary>
     /// Return true if the given non-negative number is a multiple of 3 or a multiple of 5. 
-    /// Use the % "mod" operator -- see http://codingbat.com/doc/practice/mod-introduction.html (Introduction to Mod)
+    /// Use the % "mod" operator
     /// 
     /// or35(3) → true
     /// or35(10) → true
